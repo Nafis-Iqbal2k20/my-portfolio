@@ -3,6 +3,42 @@ body{
     margin: 0px;
 }
 
+.nav-bar{
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(250,111,91), lightsalmon);
+    height: 60px;
+    border: 2px solid lightsalmon;
+    position: fixed;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 85px;
+    padding-top: 14px;
+}
+
+li{
+    display: inline;
+
+    font-size: 20px;
+}
+
+a{
+    padding: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+a:hover {
+    background: lightsalmon;
+    color: tomato;
+}
+
+
 h1{
     font-size: 50px;
 }
@@ -36,11 +72,16 @@ p{
     border-style: solid; */
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
+    background-position-y: 64px;
 }
 
 .container-height{
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.container-down{
+    padding-top: 69px;
 }
 
 .link-button{
