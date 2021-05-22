@@ -70,7 +70,7 @@ p{
     /* border-width: 5px 4px 0px 4px;
     border-color: rgb(250,111,91);
     border-style: solid; */
-    background-image: url(images/top-banner.png);
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
     background-position-y: 64px;
 }
