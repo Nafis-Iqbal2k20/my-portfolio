@@ -70,7 +70,7 @@ p{
     /* border-width: 5px 4px 0px 4px;
     border-color: rgb(250,111,91);
     border-style: solid; */
-    background-image: url(/images/top-banner.png);
+    background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
     background-position-y: 64px;
 }
@@ -98,7 +98,7 @@ p{
 .container-dream-big{
     /* border-left: 4px solid palevioletred;
     border-right: 4px solid rgb(255,167,46); */
-    background-image: url(/images/dream-bg.png);
+    background-image: url("/images/dream-bg.png");
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -119,7 +119,7 @@ p{
 }
 
 .expriences-area{
-    background-image: url(images/exp-bg.png);
+    background-image: url("/images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -142,4 +142,3 @@ footer{
     font-size: 15px;
 
 }
-
